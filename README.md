@@ -23,7 +23,7 @@ Kullanıcıların yapması gerekenler:
 
 ### Ekran Görüntüleri
 
-<table style="border: none; border-collapse: collapse;">
+<table border=0>
   <tr>
     <td align="center">
       <img src="./screenshots/preview-1440px.png" width="600px"><br>
@@ -34,7 +34,7 @@ Kullanıcıların yapması gerekenler:
 
 <br>
 
-<table style="border: none; border-collapse: collapse;">
+<table border=0>
   <tr>
     <td align="center" valign="top">
       <img src="./screenshots/preview-992px.png" width="300px"><br>
