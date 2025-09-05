@@ -23,30 +23,31 @@ Kullanıcıların yapması gerekenler:
 
 ### Ekran Görüntüleri
 
-<!-- Tek satırlık büyük ekran resmi -->
-<table style="border: none; border-collapse: collapse; width: 100%;">
-  <tr>
-    <td align="center" style="border: none;">
-      <strong>Boyut: 1440px</strong><br>
-      <img src="./screenshots/preview-1440px.png" width="600px">
-    </td>
-  </tr>
+<table>
+	<tr>
+  		<td align="center"><strong>Boyut 1440px</strong></td>
+	</tr>
+  	<tr>
+  	  	<td align="center" style="border: none;">
+  	    	<img src="./screenshots/preview-1440px.png" width="600px">
+  	  	</td>
+  	</tr>
 </table>
 
-<br>
 
-<!-- İkinci satırda yan yana 2 resim -->
-<table style="border: none; border-collapse: collapse; width: 100%;">
-  <tr>
-    <td align="center" valign="top" style="border: none;">
-      <strong>Boyut: 992px</strong><br>
-      <img src="./screenshots/preview-992px.png" width="300px">
-    </td>
-    <td align="center" valign="top" style="border: none;">
-      <strong>Boyut: 768px</strong><br>
-      <img src="./screenshots/preview-768px.png" width="300px">
-    </td>
-  </tr>
+<table>
+  	<tr>
+  		<td align="center"><strong>Boyut 992px</strong></td>
+  		<td align="center"><strong>Boyut 768px</strong></td>
+	</tr>
+  	<tr>
+  	  	<td align="center" valign="top">
+  	   		<img src="./screenshots/preview-992px.png">
+  	  	</td>
+  	  	<td align="center" valign="top">
+  	    	<img src="./screenshots/preview-768px.png">
+  	  	</td>
+  	</tr>
 </table>
 
 
