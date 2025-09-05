@@ -25,7 +25,7 @@ Kullanıcıların yapması gerekenler:
 
 <table>
   <tr>
-    <td>
+    <td align="center">
       <img src="./screenshots/preview-1440px.png" width="600px"><br>
       Boyut: 1440px
     </td>
@@ -36,11 +36,11 @@ Kullanıcıların yapması gerekenler:
 
 <table>
   <tr>
-    <td>
+    <td align="center" valign="top">
       <img src="./screenshots/preview-992px.png" width="300px"><br>
       Boyut: 992px
     </td>
-    <td>
+    <td align="center" valign="top">
       <img src="./screenshots/preview-768px.png" width="300px"><br>
       Boyut: 768px
     </td>
