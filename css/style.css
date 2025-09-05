@@ -1,0 +1,193 @@
+/* Genel Stil */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	background: hsl(0, 0%, 95%);
+}
+
+h3 {
+	font-family: "Barlow Semi Condensed", sans-serif;
+	font-weight: 600;
+}
+
+p {
+	font-family: "Barlow Semi Condensed", sans-serif;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 5rem auto;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-areas:
+		"card-1 card-1 card-2 card-5"
+		"card-3 card-4 card-4 card-5";
+	gap: 2rem;
+}
+
+.card {
+	border-radius: 10px;
+	padding: 3rem;
+	box-shadow: 20px 20px 40px rgba(0, 0, 0, .3);
+}
+
+.card-1 {
+	grid-area: card-1;
+	background-color: hsl(263, 55%, 52%);
+	background-image: url("images/bg-pattern-quotation.svg");
+	background-repeat: no-repeat;
+	background-position: top 0 right 5rem;
+}
+
+.card-2 {
+	grid-area: card-2;
+	background-color: hsl(217, 19%, 35%);
+}
+
+.card-3 {
+	grid-area: card-3;
+	background-color: hsl(0, 0%, 100%);
+}
+
+.card-4 {
+	grid-area: card-4;
+	background-color: hsl(219, 29%, 14%);
+}
+
+.card-5 {
+	grid-area: card-5;
+	background-color: hsl(0, 0%, 100%);
+}
+
+/* Card Header & Image */
+
+.card .header {
+	display: flex;
+	padding-bottom: 1.5rem;
+	color: hsl(0, 0%, 81%);
+}
+
+.card.card-3 .header,
+.card.card-5 .header {
+	color: hsl(217, 19%, 35%);
+}
+
+.card .header-image {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 2px solid hsl(264, 82%, 80%);
+}
+
+.card .header-image img {
+	width: 100%;
+}
+
+.card .header-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-left: 1rem;
+}
+
+.header-content h3 {
+	font-size: 1.3rem;
+}
+
+.header-content p {
+	font-size: 1.1rem;
+}
+
+/* Card Content */
+
+.card .card-lead {
+	font-size: 2.2rem;
+	color: hsl(0, 0%, 100%);
+	padding-bottom: 1.5rem;
+	letter-spacing: .5px;
+}
+
+.card .card-desc {
+	font-size: 1.4rem;
+	line-height: 1.5;
+	letter-spacing: 0.2px;
+	color: hsl(0, 0%, 81%);
+}
+
+.card.card-3 .card-lead,
+.card.card-5 .card-lead {
+	color: hsl(219, 29%, 14%);
+}
+
+.card.card-3 .card-desc,
+.card.card-5 .card-desc {
+	color: hsl(217, 19%, 35%);
+}
+
+.card-4 .card-lead {
+	color: hsl(0, 0%, 81%);
+}
+
+/* Attribution */
+.attribution {
+	font-size: 1.8rem;
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+/* Responsive */
+
+@media (max-width: 1200px) {
+	.container {
+		margin: 5rem 3rem;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 960px;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: auto;
+		grid-template-areas:
+			"card-1 card-4"
+			"card-5 card-5"
+			"card-3 card-2";
+	}
+}
+
+@media (max-width: 768px) {
+	html {
+		font-size: 8.5px;
+	}
+
+	.container {
+		max-width: 740px;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-areas:
+			"card-1"
+			"card-2"
+			"card-3"
+			"card-4"
+			"card-5";
+	}
+}
