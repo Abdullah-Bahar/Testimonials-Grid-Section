@@ -58,18 +58,25 @@ Kullanıcıların yapması gerekenler:
 
 ## Süreç
 
-### Kullanılan Teknolojiler
+### Kullanılan Teknolojiler & Yöntemler
 
-- Anlamlı ve düzenli HTML5 yapısı
+- Semantic HTML5 yapısı
 - Modern CSS ile tasarım 
 - Flexbox - Kart başlıkları için
 - CSS Grid - Ana layout `grid-template-areas` ile kuruldu
 - desktop-first Yaklaşımı
 - Responsive Tasarım 
+- RTL/LTR uyumluluğu için logical properties kullanımı
 
 ### Faydalı Kaynaklar
 
 - [GitHub - Web Geliştirme](https://github.com/Abdullah-Bahar/Web-Gelistirme) - Bu repoda yapmış olduğum çalışmalrım neticesinde edindiğim notlar içerisinde özellikle **grid kullanımına yönelik** olanları inceleyerek bu projeyi geliştirdim.
+
+### Olası İyileştirmeler
+
+- Mobile-first yaklaşımı uygulanabilir. Optimizasyon ve verimlilik açısından önemli.
+- `h1` eklenebilir. Mevcut yapıda sadece `h2` kullanıldı. `h1` SEO için önemlidir.
+- Responsive font boyutları `clamp()`, `min()`, `max()` ve `calc()` ile daha akıllı hale getirilebilir
 
 ## Yazar
 
