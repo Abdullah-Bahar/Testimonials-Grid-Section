@@ -1,5 +1,18 @@
 /* Genel Stil */
 
+:root {
+	--purple-50: hsl(260, 100%, 95%);
+	--purple-300: hsl(264, 82%, 80%);
+	--purple-500: hsl(263, 55%, 52%);
+	--White: hsl(0, 0%, 100%);
+	--Grey-100: hsl(214, 17%, 92%);
+	--Grey-200: hsl(0, 0%, 81%);
+	--Grey-400: hsl(224, 10%, 45%);
+	--Grey-500: hsl(217, 19%, 35%);
+	--Dark-blue: hsl(219, 29%, 14%);
+	--Black: hsl(0, 0%, 7%);
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -7,20 +20,20 @@
 }
 
 html {
-	font-size: 10px;
+	/* 1 rem = 10px */
+	font-size: 62.5%;
 }
 
 body {
+	font-family: "Barlow Semi Condensed", sans-serif;
 	background: hsl(0, 0%, 95%);
 }
 
-h3 {
-	font-family: "Barlow Semi Condensed", sans-serif;
+h2 {
 	font-weight: 600;
 }
 
 p {
-	font-family: "Barlow Semi Condensed", sans-serif;
 	font-weight: 500;
 }
 
@@ -48,43 +61,43 @@ a {
 
 .card-1 {
 	grid-area: card-1;
-	background-color: hsl(263, 55%, 52%);
-	background-image: url("images/bg-pattern-quotation.svg");
+	background-color: var(--purple-500);
+	background-image: url("../images/bg-pattern-quotation.svg");
 	background-repeat: no-repeat;
 	background-position: top 0 right 5rem;
 }
 
 .card-2 {
 	grid-area: card-2;
-	background-color: hsl(217, 19%, 35%);
+	background-color: var(--Grey-500);
 }
 
 .card-3 {
 	grid-area: card-3;
-	background-color: hsl(0, 0%, 100%);
+	background-color: var(--White);
 }
 
 .card-4 {
 	grid-area: card-4;
-	background-color: hsl(219, 29%, 14%);
+	background-color: var(--Dark-blue);
 }
 
 .card-5 {
 	grid-area: card-5;
-	background-color: hsl(0, 0%, 100%);
+	background-color: var(--White);
 }
 
 /* Card Header & Image */
 
 .card .header {
 	display: flex;
-	padding-bottom: 1.5rem;
-	color: hsl(0, 0%, 81%);
+	padding-block-end: 1.5rem;
+	color: var(--Grey-200);
 }
 
 .card.card-3 .header,
 .card.card-5 .header {
-	color: hsl(217, 19%, 35%);
+	color: var(--Grey-500);
 }
 
 .card .header-image {
@@ -92,7 +105,7 @@ a {
 	height: 4rem;
 	border-radius: 50%;
 	overflow: hidden;
-	border: 2px solid hsl(264, 82%, 80%);
+	border: 2px solid var(--purple-300);
 }
 
 .card .header-image img {
@@ -103,10 +116,10 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	margin-left: 1rem;
+	margin-inline-start: 1rem;
 }
 
-.header-content h3 {
+.header-content h2 {
 	font-size: 1.3rem;
 }
 
@@ -118,8 +131,8 @@ a {
 
 .card .card-lead {
 	font-size: 2.2rem;
-	color: hsl(0, 0%, 100%);
-	padding-bottom: 1.5rem;
+	color: var(--White);
+	padding-block-end: 1.5rem;
 	letter-spacing: .5px;
 }
 
@@ -127,32 +140,32 @@ a {
 	font-size: 1.4rem;
 	line-height: 1.5;
 	letter-spacing: 0.2px;
-	color: hsl(0, 0%, 81%);
+	color: var(--Grey-200);
 }
 
 .card.card-3 .card-lead,
 .card.card-5 .card-lead {
-	color: hsl(219, 29%, 14%);
+	color: var(--Dark-blue);
 }
 
 .card.card-3 .card-desc,
 .card.card-5 .card-desc {
-	color: hsl(217, 19%, 35%);
+	color: var(--Grey-500);
 }
 
 .card-4 .card-lead {
-	color: hsl(0, 0%, 81%);
+	color: var(--Grey-200);
 }
 
 /* Attribution */
 .attribution {
 	font-size: 1.8rem;
 	text-align: center;
-	margin-bottom: 3rem;
+	padding-bottom: 3rem;
 }
 
 .attribution a {
-	color: hsl(228, 45%, 44%);
+	color: var(--purple-500);
 }
 
 /* Responsive */
@@ -177,7 +190,7 @@ a {
 
 @media (max-width: 768px) {
 	html {
-		font-size: 8.5px;
+		font-size: 53.1%;
 	}
 
 	.container {
