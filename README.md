@@ -23,13 +23,32 @@ Kullanıcıların yapması gerekenler:
 
 ### Ekran Görüntüleri
 
-| Boyut: 1440px |
-|:--:|
-| ![1440px](./screenshots/preview-1440px.png) |
+<!-- Tek satırlık büyük ekran resmi -->
+<table style="border: none; border-collapse: collapse; width: 100%;">
+  <tr>
+    <td align="center" style="border: none;">
+      <strong>Boyut: 1440px</strong><br>
+      <img src="./screenshots/preview-1440px.png" width="600px">
+    </td>
+  </tr>
+</table>
 
-| Boyut: 992px | Boyut: 768px |
-|:--:|:--:|
-| ![992px](./screenshots/preview-992px.png) | ![768px](./screenshots/preview-768px.png) |
+<br>
+
+<!-- İkinci satırda yan yana 2 resim -->
+<table style="border: none; border-collapse: collapse; width: 100%;">
+  <tr>
+    <td align="center" valign="top" style="border: none;">
+      <strong>Boyut: 992px</strong><br>
+      <img src="./screenshots/preview-992px.png" width="300px">
+    </td>
+    <td align="center" valign="top" style="border: none;">
+      <strong>Boyut: 768px</strong><br>
+      <img src="./screenshots/preview-768px.png" width="300px">
+    </td>
+  </tr>
+</table>
+
 
 ### Linkler
 
