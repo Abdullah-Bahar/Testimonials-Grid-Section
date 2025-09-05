@@ -23,21 +23,29 @@ Kullanıcıların yapması gerekenler:
 
 ### Ekran Görüntüleri
 
-<div>
-  <img src="./screenshots/preview-1440px.png" alt="Sayfa Önizlemesi 1440px" width="600">
-  <p style="text-align:center;">Boyut: 1440px</p>
-</div>
+<table>
+  <tr>
+    <td>
+      <img src="./screenshots/preview-1440px.png" width="600px"><br>
+      Boyut: 1440px
+    </td>
+  </tr>
+</table>
 
-<div style="display:flex; gap:1rem;">
-  <div>
-    <img src="./screenshots/preview-992px.png" alt="Sayfa Önizlemesi 992px" width="290">
-    <p style="text-align:center;">Boyut: 992px</p>
-  </div>
-  <div>
-    <img src="./screenshots/preview-768px.png" alt="Sayfa Önizlemesi 768px" width="290">
-    <p style="text-align:center;">Boyut: 768px</p>
-  </div>
-</div>
+<br>
+
+<table>
+  <tr>
+    <td>
+      <img src="./screenshots/preview-992px.png" width="300px"><br>
+      Boyut: 992px
+    </td>
+    <td>
+      <img src="./screenshots/preview-768px.png" width="300px"><br>
+      Boyut: 768px
+    </td>
+  </tr>
+</table>
 
 ### Linkler
 
