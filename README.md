@@ -23,29 +23,13 @@ Kullanıcıların yapması gerekenler:
 
 ### Ekran Görüntüleri
 
-<table border=0>
-  <tr>
-    <td align="center">
-      <img src="./screenshots/preview-1440px.png" width="600px"><br>
-      Boyut: 1440px
-    </td>
-  </tr>
-</table>
+| Boyut: 1440px |
+|:--:|
+| ![1440px](./screenshots/preview-1440px.png) |
 
-<br>
-
-<table border=0>
-  <tr>
-    <td align="center" valign="top">
-      <img src="./screenshots/preview-992px.png" width="300px"><br>
-      Boyut: 992px
-    </td>
-    <td align="center" valign="top">
-      <img src="./screenshots/preview-768px.png" width="300px"><br>
-      Boyut: 768px
-    </td>
-  </tr>
-</table>
+| Boyut: 992px | Boyut: 768px |
+|:--:|:--:|
+| ![992px](./screenshots/preview-992px.png) | ![768px](./screenshots/preview-768px.png) |
 
 ### Linkler
 
