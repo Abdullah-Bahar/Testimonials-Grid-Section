@@ -29,7 +29,7 @@ Kullanıcıların yapması gerekenler:
 	</tr>
   	<tr>
   	  	<td align="center" style="border: none;">
-  	    	<img src="./screenshots/preview-1440px.png" width="600px">
+  	    	<img src="./screenshots/preview-1440px.png">
   	  	</td>
   	</tr>
 </table>
