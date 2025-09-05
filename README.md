@@ -11,6 +11,7 @@ Bu proje, [Frontend Mentor](https://www.frontendmentor.io/challenges/testimonial
 - [Süreç](#süreç)
   - [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
   - [Faydalı Kaynaklar](#faydalı-kaynaklar)
+  - [Olası İyileştirmeler](#olası-i̇yileştirmeler)
 - [Yazar](#yazar)
 
 ## Genel Bakış
